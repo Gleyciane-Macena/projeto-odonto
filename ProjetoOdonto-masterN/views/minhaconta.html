@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OdontoCare - Minha Conta</title>
+    <link rel="icon" href="/img/logo.svg">
+    <link href="/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+</head>
+<body class="minha-conta">
+    <section class="main">
+        <!--logo-->
+        <div class="center">
+            <div class="menu">
+                <div class="logo-menu">
+                    <a href="Home.html"><img class="logo" src="/img/logo.svg" /></a>
+                </div>
+    </section>
+    <!--logo-->
+    
+        <div class="mn-minhacc">
+            <p>Bem-Vindo(a) Bruno</p>            
+                <a class="mm-sair-cc" href="#">Sair</a>
+            
+        </div> 
+
+        <div class="container">
+            <div class="row-2">                
+                <div class="col-6">
+                    <nav class="nav flex-column nav-pills" id="shopperMenu" role="tablist">
+                        <a id="minhaConta-tab"class="list-group-item list-group-item-action nav-link active" data-toggle="pill" role="tab" aria-controls="CC-customerProfile-orderDetails-section" aria-expanded="true"> 
+                            
+                            <img class="icn-profile" src="/img/user.png">MINHA CONTA</a> 
+                        <a id="minhasPropostas-tab"class="list-group-item list-group-item-action nav-link" data-toggle="pill" role="tab" aria-controls="CC-customerProfile-orderDetails-section" aria-expanded="true" data-bind="click: orderListAjax">
+                            
+                            <img class="icn-profile prop"  src="/img/proposta-de-negocio.png">MARCAR CONSULTA</a> 
+                        <a id="senha-tab"  class="list-group-item list-group-item-action nav-link" data-toggle="pill" role="tab" aria-controls="CC-customerProfile-password" aria-expanded="true">
+                            
+                            <img class="icn-profile"src="/img/padlock.png">SENHA</a>
+                </div>
+                <div class="col-6-9">
+                    <div class="name-info-cc">
+                   <h2>Meus detalhes</h2>                                           
+                            <label class="name-cc-mm" for="customerProfile">NOME</label>
+                            <div id="customerProfile-detalhes">
+                                <span text="firstName" id="customerProfile">Bruno</span>
+                                <span text="lastName" id="customerProfile">Paulo Mariano</span>
+                            </div>
+                            <label class="email-cc-mm" for="customerProfile">E-MAIL</label>
+                            <div id="customerEmail">
+                                <span text="firstName" id="customerEmail">brunopmariano@outlook.com.br</span>
+                            </div><br>
+                            <span id="planos">Plano Gold</span><br><br>
+                            <button class="editar-perfil-btn-cc"id="customer-perfil">Editar</button>                          
+                    </div>
+                </div>
+            </div>
+        </div>  
+</body>
+</html>

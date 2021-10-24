@@ -1,0 +1,12 @@
+module.exports = {
+    dialect: 'postgres',
+    host: 'localhost',
+    username: 'root',
+    password: '',
+    database: 'odonto',
+    define: {
+        timestamps: true,
+        underscored: true,
+    },
+
+};
